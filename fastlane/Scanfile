@@ -8,5 +8,4 @@
 
 scheme("brain-marks")
 cloned_source_packages_path("SwiftPackages")
-disable_package_automatic_updates(true)
 clean(true)

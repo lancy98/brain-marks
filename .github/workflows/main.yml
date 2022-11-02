@@ -22,9 +22,9 @@ jobs:
     - name: GitHub Action for SwiftLint
       uses: norio-nomura/action-swiftlint@3.2.1
   
-  CI:
+  UnitTests:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v1
     - name: Run unit tests
-      run: fastlane tests
+      run: bundle exec fastlane tests
