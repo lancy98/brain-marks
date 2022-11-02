@@ -27,4 +27,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run unit tests
-      run: bundle exec fastlane tests
+      run: fastlane tests
